@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div {
+  /* @apply border-2 border-indigo-500/100 */
+}
+/*
+@layer components {
+  .card {
+    background-color: theme('');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.xl');
+    box-sizing: border-box;
+    
+  }
+}
+
+/* box-content w-64 h-64 rounded-xl bg-pink-500
+hover:-translate-y-1 hover:scale-110 duration-300 */
