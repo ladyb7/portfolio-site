@@ -12,12 +12,11 @@ const Profile = () => {
       </div>
       <div className="flex flex-col gap-4 mx space-y-4"></div>
       <div className="text-xl">
-        I'm a network enthusiast based in KL. I have profound interest in web
-        development, network administration, system administration, penetration
-        testing and everything in between.
+        I&rsquomm a network enthusiast based in KL. I have profound interest in
+        web development, network administration, system administration,
+        penetration testing and everything in between.
       </div>
       <div className="flex flex-col p-4">
-          
         <div
           className="box-content h-8 w-24 p-4 
                 border-2 m4 rounded-md transition ease-in-out delay-100 bg-indigo-600:-translate-y-1 hover:scale-110 hover:bg-indigo-200 duration-600"
