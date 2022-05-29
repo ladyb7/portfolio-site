@@ -13,21 +13,26 @@ import Writings from "../components/writings";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-gradient-to-r from-violet-500 to-navy-700">
-      <Layout>
-        <div className="text-slate-600 font-sans flex flex-col gap-8 ">
-          <Header />
-          <Profile />
-          <div>
-            <Aboutme />
-            <Experience />
-            <ProjectPreview />
-            <Writings/>
-            <Contact />
+    <div>
+      <Head>
+        <title>Aiman Farihah</title>
+      </Head>
+      <div className="bg-gradient-to-r from-violet-500 to-navy-700">
+        <Layout>
+          <div className="text-slate-600 font-sans flex flex-col gap-8 ">
+            <Header />
+            <Profile />
+            <div>
+              <Aboutme />
+              <Experience />
+              <ProjectPreview />
+              <Writings />
+              <Contact />
+            </div>
+            <Footer />
           </div>
-          <Footer />
-        </div>
-      </Layout>
+        </Layout>
+      </div>
     </div>
   );
 };
